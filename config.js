@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md"
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/2a51bde7cbfd6095ed602.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ" 
 
 
 global.devs = "923184474176" // Developer Contact
@@ -72,9 +72,9 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "" , // ```『 ✰⃞𝕜𝕒𝕜𝕦𝕫𝕦⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣.               22362451835",
+  author : process.env.PACK_AUTHER|| "✰⃞𝕜𝕒𝕜𝕦𝕫⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣.               22362451835",
   packname: process.env.PACK_NAME || "
     
     
@@ -89,8 +89,8 @@ module.exports = {
     
     
     ✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
-  botname : process.env.BOT_NAME  || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
-  ownername:process.env.OWNER_NAME|| "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
+  botname : process.env.BOT_NAME  || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
+  ownername:process.env.OWNER_NAME|| "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -105,7 +105,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣"  ).toUpperCase(),
 
 
 
@@ -113,7 +113,7 @@ module.exports = {
 
 
 
-global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.ELEVENAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
 global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
