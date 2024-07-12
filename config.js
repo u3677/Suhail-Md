@@ -69,7 +69,7 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "&",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ✰⃞𝕜𝕒𝕜𝕦𝕫𝕦⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
@@ -89,7 +89,7 @@ module.exports = {
     
     
     ✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
-  botname : process.env.BOT_NAME  || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
+  botname : process.env.BOT_NAME  || "suhail ",
   ownername:process.env.OWNER_NAME|| "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
 
 
@@ -105,7 +105,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "suhail"  ).toUpperCase(),
 
 
 
@@ -113,7 +113,7 @@ module.exports = {
 
 
 
-global.ELEVENAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.ELEVENAB_API_KEY env.ELEVENLAB_API_KEY || "";
 global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
